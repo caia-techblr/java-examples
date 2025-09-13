@@ -1,0 +1,13 @@
+@startuml
+class Box {
+    - double width
+    - double height
+    - double depth
+    + Box(double w, double h, double d)
+    + Box(double len)
+    + Box()
+    + double volume()
+    + double surfaceArea()
+    + double perimeter()
+}
+@enduml

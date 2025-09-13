@@ -1,0 +1,1 @@
+![Point class diagram](point.img)
