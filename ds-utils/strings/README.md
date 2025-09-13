@@ -24,6 +24,9 @@
 11. [String split/parsing](StringSplitDemo.java)
 12. [String joining](StringJoinDemo.java)
 13. [Replace Operations](ReplaceDemo.java)
+14. [String Formatting](formattedStringDemo.java)
+
+> Other/Additional : matches, intern, codepoints, hashCode
 
 # Reference
 * https://docs.oracle.com/javase/8/docs/api/java/lang/String.html

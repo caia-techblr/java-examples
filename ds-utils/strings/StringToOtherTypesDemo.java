@@ -3,12 +3,16 @@ public class StringToOtherTypesDemo {
         String intStr = "123";
         String doubleStr = "45.67";
         String boolStr = "true";
+        String str = "Hello";
 
         // Using Integer.parseInt(), Double.parseDouble(), Boolean.parseBoolean()
         int intValue = Integer.parseInt(intStr);
         double doubleValue = Double.parseDouble(doubleStr);
         boolean boolValue = Boolean.parseBoolean(boolStr);
-
+        
+        char[] carr = str.toCharArray();
+        char ch = str.charAt(1); // str.toCharArray()[1];
+        
         System.out.println("Using parse methods:");
         System.out.println("String to Integer: " + intValue);
         System.out.println("String to Double: " + doubleValue);

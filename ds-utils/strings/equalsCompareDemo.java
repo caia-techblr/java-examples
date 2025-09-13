@@ -49,5 +49,16 @@ public class equalsCompareDemo {
         System.out.println("str9.startsWith(\"Hello\"): " + str9.startsWith("Hello")); // true
         System.out.println("str9.endsWith(\"World!\"): " + str9.endsWith("World!")); // true    
         
+        //contentEquals() method
+        String str10 = "Hello";
+        StringBuffer strBuffer = new StringBuffer("Hello");
+        System.out.println("\nUsing contentEquals() method:");
+        System.out.println("str10.contentEquals(strBuffer): " + str10.contentEquals(strBuffer)); // true
+
+        //regionMatches() method
+        String str11 = "Hello, World!";
+        String str12 = "Hello, Java!";
+        System.out.println("\nUsing regionMatches() method:");
+        System.out.println("str11.regionMatches(7, str12, 7, 4): " + str11.regionMatches(7, str12, 7, 4)); // true
     }
 }
