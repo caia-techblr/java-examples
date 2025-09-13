@@ -4,8 +4,8 @@ public class AccountDemo
 {
     public static void main(String[] args)
     {
-        Account acc1 = new Account("1001", "Alice", 5000);
-        Account acc2 = new Account("1002", "Bob", 3000);
+        Account acc1 = new Account("Alice", 5000);
+        Account acc2 = new Account("Bob", 3000);
         
         acc1.deposit(1500); 
         System.out.println("Balance of Account 1: " + acc1.getBalance());

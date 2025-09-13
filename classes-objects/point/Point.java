@@ -51,9 +51,4 @@ public class Point {
     public String toString() {
         return "(" + x + ", " + y + ")";
     }
-}
-
-/generate plantuml code for Point class as block comment
-/*
-
-*/  
+} 

@@ -7,7 +7,7 @@ class AccountTest {
 
     @Test
     void testAccountConstructorAndGetBalance() {
-        Account acc = new Account("2001", "Charlie", 2500.0);
+        Account acc = new Account("Charlie", 2500.0);
         assertEquals(2500.0, acc.getBalance(), 0.001);
         assertEquals("Charlie", acc.customerName);
         assertEquals("2001", acc.customerId);
@@ -15,14 +15,14 @@ class AccountTest {
 
     @Test
     void testDepositPositiveAmount() {
-        Account acc = new Account("2002", "David", 1000.0);
+        Account acc = new Account("David", 1000.0);
         acc.deposit(500.0);
         assertEquals(1500.0, acc.getBalance(), 0.001);
     }
 
     @Test
     void testDepositNegativeAmount() {
-        Account acc = new Account("2003", "Eve", 1000.0);
+        Account acc = new Account("Eve", 1000.0);
         acc.deposit(-100.0);
         assertEquals(1000.0, acc.getBalance(), 0.001);
     }
@@ -36,7 +36,7 @@ class AccountTest {
 
     @Test
     void testWithdrawInvalidAmount() {
-        Account acc = new Account("2005", "Grace", 1000.0);
+        Account acc = new Account("Grace", 1000.0);
         acc.withdraw(1500.0); // More than balance
         assertEquals(1000.0, acc.getBalance(), 0.001);
         acc.withdraw(-100.0); // Negative amount
@@ -45,7 +45,7 @@ class AccountTest {
 
     @Test
     void testToStringFormat() {
-        Account acc = new Account("2006", "Heidi", 3000.0);
+        Account acc = new Account("Heidi", 3000.0);
         String str = acc.toString();
         assertTrue(str.contains("Account Number: 2006"));
         assertTrue(str.contains("Customer Name: Heidi"));
