@@ -1,0 +1,13 @@
+@startuml
+class Point {
+  - int x
+  - int y
+  + Point(int x, int y)             
+  + int getX()    
+  + int getY()
+  + double distanceFromOther(Point other)
+  + double distanceFromOrigin()
+  + Quadrant getQuadrant()
+  + String toString()
+}
+@enduml
