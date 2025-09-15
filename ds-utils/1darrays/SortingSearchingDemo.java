@@ -1,5 +1,3 @@
-package ds-utils.1darrays;
-
 public class SortingSearchingDemo {
     public static void main(String[] args) {
         int[] arr = {34, 7, 23, 32, 5, 62};
@@ -65,6 +63,10 @@ public class SortingSearchingDemo {
         }
         return -1;
     }
-
-    public static void printArray(int[]
+    public static void printArray(int[] arr) {
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
+    }
 }

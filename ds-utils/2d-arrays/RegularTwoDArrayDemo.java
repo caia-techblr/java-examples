@@ -38,7 +38,7 @@ public class RegularTwoDArrayDemo {
         // Length of the 2D array
         System.out.println("Number of rows: " + matrix.length);
         System.out.println("Number of columns in first row: " + matrix[0].length);
-        }
+        
     }
     public static void uninitializedArray() {
         // Creating a 2D array without initialization, and fill random values
@@ -53,5 +53,10 @@ public class RegularTwoDArrayDemo {
         //fillRandomValues(anotherMatrix,100);
         System.out.println("Another 2D Array (Matrix) with random values:");
         print2DArray(anotherMatrix);
+    }
+    public static void main(String[] args) {
+        uninitializedArray();
+        initialized2DArray();
+        
     }
 }
