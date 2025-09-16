@@ -1,5 +1,4 @@
-package ds-utils.1darrays;
-
+//countEvenNumbers, countOddNumbers, differenceBetweenEvenandOddSums, differenceBetweenEvenandOddPositions
 public class MoreArrayOpeations {
     public static void main(String[] args) {
         int[] arr = {3, 5, 1, 8, 2};

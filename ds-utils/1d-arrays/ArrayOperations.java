@@ -1,3 +1,4 @@
+//sum, average, min, max, reverse
 public class ArrayOperations {
 
     public static int minValue(int[] arr) {

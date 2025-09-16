@@ -1,5 +1,5 @@
-* [Arrays](arrays)
-* [Strings](strings)
+* [Arrays](ds-utils)
+* [Strings](ds-utils)
 * [Classes & Objects](classes-objects)
 * [Inheritance](inheritance)
 * [Interfaces](interfaces)

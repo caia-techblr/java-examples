@@ -25,7 +25,7 @@ public class ArrayCreationDemo {
         System.out.println();
 
         System.out.print("String Array: ");
-        for (String str : strArray) {
+        for (String str : words) {
             System.out.print(str + " ");
         }
         System.out.println();

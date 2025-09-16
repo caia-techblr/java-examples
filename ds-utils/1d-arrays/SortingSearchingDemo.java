@@ -1,3 +1,4 @@
+// Sorting & Searching in 1D Arrays
 public class SortingSearchingDemo {
     public static void main(String[] args) {
         int[] arr = {34, 7, 23, 32, 5, 62};
