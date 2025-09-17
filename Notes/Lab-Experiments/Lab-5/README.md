@@ -18,7 +18,7 @@
 
 > Draw class diagram for the above (online tool/plantuml)
 
-* Plantuml code
+* Plantuml code, put this code in https://www.plantuml.com/ or https://www.planttext.com/
 
 ```
 @startuml
