@@ -13,12 +13,12 @@
         - Add a skill
         - Print all skills in sorted order
         - Check if student is having specific skill
-        - Remove a skill (?)
+        - Remove a skill (* - after learning ArrayList)
         - Implement `toString` method
 
-> Draw class diagram for above the above (online tool/plantuml)
+> Draw class diagram for the above (online tool/plantuml)
 
-* Class Diagram
+* Plantuml code
 
 ```
 @startuml
@@ -48,7 +48,7 @@ class Student {
     - Count the readings, above certain limit
     - Implement `toString` method
 
-* Class Diagram
+* Plantuml code
 
 ```
 @startuml
