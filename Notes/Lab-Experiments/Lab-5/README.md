@@ -4,8 +4,8 @@
     * Attributes/Fields
         - Student/Trainee ID
         - Name
-        - Scores (in 5 subjects)
-        - Skills (array of strings)
+        - _Scores (in N subjects,array)_
+        - _Skills (array of strings)_
 
     * Implement following methods
         - Constructor(s)
