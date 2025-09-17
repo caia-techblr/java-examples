@@ -39,7 +39,7 @@ class Student {
 2. Design a class, to store temperature readings of City for a period of N days.
   * Attributes/Fields
     - cityName : String
-    - array of temperature readings
+    - _array of temperature readings_
   * Methods/Operations
     - Constructor(s)
     - Fill Readings
