@@ -1,0 +1,66 @@
+# Lab Assignments
+
+1. Design a class Student/Employee as follows
+    * Attributes/Fields
+    - Student/Trainee ID
+    - Name
+    - Scores (in 5 subjects)
+    - Skills (array of strings)
+
+    * Implement following methods
+    - Constructors
+    - Initialize/Fill the scores
+    - Add a skill
+    - Print all skills in sorted order
+    - Check if student is having specific skill
+    - Remove a skill (?)
+    - Implement `toString` method
+
+> Draw class diagram for above the above (online tool/plantuml)
+
+* Class Diagram
+
+```
+@startuml
+class Student {
+    - id :String
+    - name : String
+    - scores : double[] 
+    + Student(id:String, name:String, scores:double[])
+    + addSkill(skill:String)   
+    + removeSkill(skill:String)
+    + isHavingSkill(skill:String) : boolean
+    + printSkills()
+    + toString() : String
+}
+@enduml
+
+2. Design a class, to store temperature readings of City for a period of N days.
+  * Attributes/Fields
+    - cityName : String
+    - array of temperature readings
+  * Methods/Operations
+    - Constructor(s)
+    - Fill Readings
+    - Find Average Temperature
+    - Find Minimum Temperature
+    - Find Maximum Temperature
+    - Count the readings, above certain limit
+
+* Class Diagram
+
+```
+@startuml
+class City {
+    - id :String
+    - name : String
+    - scores : double[] 
+    + City(name:String)
+    + fillReadings(readings:double[])
+    + findAverageTemperature():double
+    + findMinimumTemperature():double
+    + findMaximumTemperature():double
+    + countTemperatureReadings(tlimit:double):int
+}
+@enduml
+```
