@@ -16,7 +16,7 @@
         - Remove a skill (* - after learning ArrayList)
         - Implement `toString` method
 
-> Draw class diagram for the above (online tool/plantuml)
+> Draw class diagram for the above (online tool like draw.io or smartdraw/plantuml)
 
 * Plantuml code, put this code in https://www.plantuml.com/ or https://www.planttext.com/
 
