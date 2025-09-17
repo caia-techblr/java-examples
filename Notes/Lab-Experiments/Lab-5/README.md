@@ -18,7 +18,7 @@
 
 > Draw class diagram for the above (online tool like draw.io or smartdraw/plantuml)
 
-* Plantuml code, put this code in https://www.plantuml.com/ or https://www.planttext.com/
+* Plantuml code, put this code in https://www.plantuml.com/ or https://www.planttext.com/ to generate class diagram
 
 ```
 @startuml
