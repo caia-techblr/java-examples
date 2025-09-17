@@ -10,6 +10,8 @@
     * Implement following methods
         - Constructor(s)
         - Initialize/Fill the scores
+        - Find sum & average of the scores
+          
         - Add a skill
         - Print all skills in sorted order
         - Check if student is having specific skill
