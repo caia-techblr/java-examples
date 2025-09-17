@@ -34,6 +34,7 @@ class Student {
     + toString() : String
 }
 @enduml
+```
 
 2. Design a class, to store temperature readings of City for a period of N days.
   * Attributes/Fields
