@@ -2,19 +2,19 @@
 
 1. Design a class Student/Employee as follows
     * Attributes/Fields
-    - Student/Trainee ID
-    - Name
-    - Scores (in 5 subjects)
-    - Skills (array of strings)
+        - Student/Trainee ID
+        - Name
+        - Scores (in 5 subjects)
+        - Skills (array of strings)
 
     * Implement following methods
-    - Constructors
-    - Initialize/Fill the scores
-    - Add a skill
-    - Print all skills in sorted order
-    - Check if student is having specific skill
-    - Remove a skill (?)
-    - Implement `toString` method
+        - Constructor(s)
+        - Initialize/Fill the scores
+        - Add a skill
+        - Print all skills in sorted order
+        - Check if student is having specific skill
+        - Remove a skill (?)
+        - Implement `toString` method
 
 > Draw class diagram for above the above (online tool/plantuml)
 
@@ -46,6 +46,7 @@ class Student {
     - Find Minimum Temperature
     - Find Maximum Temperature
     - Count the readings, above certain limit
+    - Implement `toString` method
 
 * Class Diagram
 
@@ -61,6 +62,7 @@ class City {
     + findMinimumTemperature():double
     + findMaximumTemperature():double
     + countTemperatureReadings(tlimit:double):int
+    + toString():String
 }
 @enduml
 ```
