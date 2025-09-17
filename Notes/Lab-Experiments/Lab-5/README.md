@@ -4,8 +4,8 @@
     * Attributes/Fields
         - Student/Trainee ID
         - Name
-        - _Scores (in N subjects,array)_
-        - _Skills (array of strings)_
+        - __Scores (in N subjects,array)__
+        - __Skills (array of strings)__
 
     * Implement following methods
         - Constructor(s)
@@ -39,7 +39,7 @@ class Student {
 2. Design a class, to store temperature readings of City for a period of N days.
   * Attributes/Fields
     - cityName : String
-    - _array of temperature readings_
+    - __array of temperature readings__
   * Methods/Operations
     - Constructor(s)
     - Fill Readings
