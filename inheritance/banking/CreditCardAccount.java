@@ -6,34 +6,22 @@ public class CreditCardAccount extends Account
     double interestRate;
     CreditCardAccount(String customerName, double balance, double creditLimit, double interestRate)
     {
-        super(customerName, balance);
-        this.creditLimit = creditLimit;
-        this.interestRate = interestRate;
+        // TODO : implement constructor
     }
     @Override
     public void credit(double amount)
     {
-        if (amount > 0)
-        {
-            balance += amount; // balance = balance + amount
-        }
+       // TODO : implement credit
     }
 
     @Override
     public void debit(double amount)
     {
-        if (amount > 0 && amount <= (balance + creditLimit))
-        {
-            balance -= amount; // balance = balance - amount
-        }
+        // TODO : implement debit
     }
     public void addInterest()
     {
-        if (balance < 0)
-        {
-            double interest = (Math.abs(balance) * interestRate) / 100;
-            balance -= interest; // balance = balance - interest
-        }
+        // TODO : implement addInterest
     }
     public String toString()
     {

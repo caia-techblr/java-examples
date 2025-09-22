@@ -22,15 +22,8 @@ public class Employee {
         double allowance = (allowanceRate / 100) * basicSalary;
         return basicSalary + hra + allowance - pf;
     }*/
-    public final double getGrossSalary() {
-        double hra = (hraPercent / 100) * basicSalary;
-        double allowance = (allowanceRate / 100) * basicSalary;
-        return basicSalary + hra + allowanceRate - pf;
-    }    
-    public final double getNetSalary() {
-        double pf = (pfPercent / 100) * basicSalary;
-        return getGrossSalary() - pf;
-    }
+    // TODO : implement grossSalary
+    // TODO : implement netSalary
     public void increaseSalary() {
         
     }

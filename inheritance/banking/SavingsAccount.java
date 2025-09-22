@@ -5,30 +5,22 @@ public class SavingsAccount extends Account
     double interestRate;
     SavingsAccount(String customerName, double balance, double interestRate)
     {
-        super(customerName, balance);
-        this.interestRate = interestRate;
+        // TODO : implement constructor
     }
     public void addInterest()
     {
-        double interest = (balance * interestRate) / 100;
-        debit(interest);
+        // TODO : implement addInterest
     }
     @Override
     public void credit(double amount)  //bill payment
     {
-        if (amount > 0)
-        {
-            balance += amount;  
-        }
+        // TODO : implement credit
     }
 
     @Override
     public void debit(double amount)  //purchase
     {
-        if (amount > 0 && amount <= balance)
-        {
-            balance -= amount;  
-        }
+        // TODO : implement debit
     }
     public String toString()
     {

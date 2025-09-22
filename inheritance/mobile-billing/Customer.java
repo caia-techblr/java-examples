@@ -12,16 +12,12 @@ public class Customer {
         this.phoneNumber = phoneNumber;
         this.balance = balance;
     }    
-    public void recharge(double amount) {
-        if (amount > 0) {
-            balance += amount;
-        }
+    public void credit(double amount) {
+        // recharge or billPayment
     }
     public void makeCall(double minutes) {
-        double totalCost = minutes * costPerMinute;
-        if (totalCost > 0 && totalCost <= balance) {
-            balance -= totalCost;
-        }
+        // TODO : if any common logic
+        
     }
     public double getBalance() {
         return balance;
