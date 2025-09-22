@@ -1,10 +1,8 @@
-package inheritance.shapes;
-
-public class Shape {
-    public double area() {
+public class Shape {        // abstract class
+    public double area() {  // abstract method
         return 0;
     }   
-    public double perimeter() {
+    public double perimeter() { // abstract method
         return 0;
     }
 }

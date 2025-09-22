@@ -1,5 +1,3 @@
-package inheritance.shapes;
-
 public class Triangle extends Shape {
     double sideA;
     double sideB;

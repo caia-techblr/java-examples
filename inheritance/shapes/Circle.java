@@ -1,5 +1,3 @@
-package inheritance.shapes;
-
 public class Circle extends Shape {
     double radius;
     Circle(double radius) {
