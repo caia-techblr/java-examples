@@ -20,3 +20,5 @@
 ## Advanced/Additional
 * What is the use/significance of abstract classes, if they can't create objects
 * How abstract class play crucial role in Polymorphism.
+* What are wrong examples inheritance
+* When to avoid inheritance(is-a) and go for composition(part-of)/aggregation(has-a)
