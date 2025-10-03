@@ -4,6 +4,7 @@
 * Types of Inheritance : Single, Multiple, Multilevel
 * Real-life examples of Single, Multilevel inheritance
 * Do java supports multiple inheritance using classes
+* `protected` access specifier
 
 ## Java support
 * Java syntax for inheriting one class from other
@@ -39,6 +40,7 @@
     * Override `credit` & `debit` methods in sub classes
     * In main, Create objects of subclasses which are held by super class references and demonstrate polymorphism
 > In SavingsAccount consider `debit as withdraw` and `credit as deposit`
+> 
 > In CreditAccount consider `debit as purchase` and `credit as billpay`
 * 2D Geometric Shapes
     * Create abstract class `Shape` with two abstract methods - `area` and `circumference`
@@ -57,4 +59,5 @@
     * Implement `toString` method in all classes
     * In main, Create objects of subclasses which are held by super class references and demonstrate polymorphism
 > In PrepaidCustomer consider `credit as recharge`
+> 
 > In PostpaidCustomer consider `credit as billpay`
