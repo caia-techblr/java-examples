@@ -30,22 +30,23 @@
 
 ## Hands-on Problems (Scenario Based)
 * Banking Accounts
-    * Create Account class as abstract
+    * Create `Account` class as abstract
+        * data : id, name, balance
         * constructor (s)
-        * with two abstract methods - credit & debit
-        * Non abstract methods - getBalance, toString
-    * Inherit Account class by SavingsAccount, CreditAccount
-    * Override credit & debit methods in sub classes
+        * with two abstract methods - `credit` & `debit`
+        * Non abstract methods - `getBalance`, `toString`
+    * Inherit `Account` class by `SavingsAccount`, `CreditAccount`
+    * Override `credit` & `debit` methods in sub classes
     * In main, Create objects of subclasses which are held by super class references and demonstrate polymorphism
 * 2D Geometric Shapes
     * Create abstract class `Shape` with two abstract methods - `area` and `circumference`
     * Create `Polygon` class inheriting `Shape` with data field : `nSides` and suitable construtor
-    * Inherit Polygon class by `Circle`, `Rectangle`, `Triangle` with suitable constructors and overriding `area`,`circumference` methods
+    * Inherit `Polygon` class by `Circle`, `Rectangle`, `Triangle` with suitable constructors and overriding `area`,`circumference` methods
     * Implement toString method in all classes
     * In main, Create objects of `Circle`, `Rectangle`, `Triangle` which are held by Shape or Polygon references and demonstrate polymorphism
 * Mobile Billing
   * Create Customer class as abstract
-        * data : id, name, balance
+        * data : id, name, phone number balance
         * constructor (s)
         * Add two abstract methods - credit & debit
         * Non abstract methods - getBalance, toString
