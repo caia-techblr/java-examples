@@ -38,6 +38,8 @@
     * Inherit `Account` class by `SavingsAccount`, `CreditAccount`
     * Override `credit` & `debit` methods in sub classes
     * In main, Create objects of subclasses which are held by super class references and demonstrate polymorphism
+> In SavingsAccount consider `debit as withdraw` and `credit as deposit`
+> In CreditAccount consider `debit as purchase` and `credit as billpay`
 * 2D Geometric Shapes
     * Create abstract class `Shape` with two abstract methods - `area` and `circumference`
     * Create `Polygon` class inheriting `Shape` with data field : `nSides` and suitable construtor
@@ -48,9 +50,11 @@
   * Create Customer class as abstract
         * data : id, name, phone number balance
         * constructor (s)
-        * Add two abstract methods - `credit` & `debit`
+        * Add two abstract methods - `credit` & `makeCall`
         * Non abstract methods - `getBalance`, `toString`
     * Inherit `Customer` class by `PrepaidCustomer`, `PostpaidCustomer` with suitable constructors
-    * Override `credit` & `debit` methods in sub classes
+    * Override `credit` & `makeCall` methods in sub classes
     * Implement `toString` method in all classes
     * In main, Create objects of subclasses which are held by super class references and demonstrate polymorphism
+> In PrepaidCustomer consider `credit as recharge`
+> In PostpaidCustomer consider `credit as billpay`
