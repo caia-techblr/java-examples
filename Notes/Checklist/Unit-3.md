@@ -48,9 +48,9 @@
   * Create Customer class as abstract
         * data : id, name, phone number balance
         * constructor (s)
-        * Add two abstract methods - credit & debit
-        * Non abstract methods - getBalance, toString
-    * Inherit Customer class by PrepaidCustomer, PostpaidCustomer
-    * Override credit & debit methods in sub classes
-    * Implement toString method in all classes
+        * Add two abstract methods - `credit` & `debit`
+        * Non abstract methods - `getBalance`, `toString`
+    * Inherit Customer class by `PrepaidCustomer`, `PostpaidCustomer`
+    * Override `credit` & `debit` methods in sub classes
+    * Implement `toString` method in all classes
     * In main, Create objects of subclasses which are held by super class references and demonstrate polymorphism
