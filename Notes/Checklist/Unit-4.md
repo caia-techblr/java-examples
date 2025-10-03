@@ -33,6 +33,7 @@
     * Override `credit` & `debit` methods in sub classes 
     * In main, Create objects of `SavingsAccount`, `CreditAccount` which are held by `IAccount`, `Account` references and demonstrate polymorphism
 > In SavingsAccount consider `debit as withdraw` and `credit as deposit`
+
 > In CreditAccount consider `debit as purchase` and `credit as billpay`
 
 * 2D Geometric Shapes
@@ -53,4 +54,5 @@
     * Implement `toString` method in all classes
     * In main, Create objects of subclasses which are held by `ICustomer`, `Customer` references and demonstrate polymorphism
 > In PrepaidCustomer consider `credit as recharge`
+
 > In PostpaidCustomer consider `credit as billpay`
